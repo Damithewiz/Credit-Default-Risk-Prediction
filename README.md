@@ -5,17 +5,20 @@ This study addresses the application of Artificial Intelligence (AI) in the fina
 
 Keywords: Credit Risk, Credit Default, Finance, Random Forest, Machine Learning, K-Nearest Neighbor, Decision Tree, Naive Bayes, Logistic Regression, Random Forest, Gradient Boosting, Neural Networks
 
-1. Introduction
+### 1. Introduction
+
 Credit risk is the possibility of suffering a loss if a debtor defaults on a loan or a particular credit line by failing to pay the interest (Switzer and Wang 2013). The reason why we should focus on measuring default risk instead of debt valuation is because of the implicit inclusion of default risk in debt value. Default-risk measurement could be independently validated, it is sensible to concentrate on it since debt value ought to be accurate if default risk calculation is confirmed (Kealhofer 2003).  Financial institutions are now able to handle the real-time data supplied by clients more healthily thanks to analytics (Sayjadah et al. 2018). Banks may now explore a new horizon that was not conceivable with their old descriptive approach thanks to predictive and prescriptive analytics (Sayjadah et al. 2018) (Venkatesh and Jacob 2016).
 
 Credit scoring is one of the key forecasts that banks are worried about since it helps them understand why consumers are more likely to fail (Sayjadah et al. 2018). To reduce potential losses in financial institutions, they use credit default prediction which estimates the potential default risk and rejects new credit proposals if the default risk exceeds a certain acceptance threshold (Moula et al. 2017). The productivity and profitability of financial institutions depend heavily on the accuracy of credit prediction because, as stated by (Ala'raj and Abbod 2016), even a small improvement in the accuracy of credit prediction of prospective applicants with default credit can prevent the financial industry from suffering a significant loss in the future (Moula et al. 2017). In this research, artificial intelligence (AI) approaches are presented as a sophisticated alternative that may improve accuracy in credit default prediction and adapt to new data.
 
-2. The Real-World Problem
+### 2. The Real-World Problem
+
 The high cost of loan default is a tragedy that is frequently seen in the credit markets (Hunte 1996). Loan default is tragic because it frequently leads to credit organizations' collapse due to a lack of implementation of sound lending practices and reliable credit policies. When the flow of payments diminishes due to default issues, lenders become welfare agencies rather than sustainable financial entities (Hunte 1996). When a credit prediction model is not advanced enough to differentiate between high-risk and low-risk applicants, it unfairly penalizes creditworthy applicants and it also undermines public confidence in formal financial markets which may lead to savers withdrawing their money from financial institutions (Hunte 1996).
 
 A financial institution will be able to minimize the expected default or misclassification rate, given to some exogenous acceptance condition, by rating clients based on estimated default probability (Carling et al. 1998). Artificial Intelligence is the ideal answer for financial institutions worldwide who are working hard to enhance the corporate banking loan origination process in response to rising competition and bankruptcy (Özdemir and Boran 2004).
 
-3.Project Aim and Objectives
+### 3. Project Aim and Objectives
+
 This project aims to employ artificial intelligence to develop and implement a robust machine learning model that is capable of predicting credit default risk accurately to enable financial institutions to minimize financial losses through credit default.
 The objectives of the project are as follows;
 - Conduct a comprehensive literature review to analyze existing credit default prediction systems and existing machine learning approaches.
@@ -24,7 +27,8 @@ The objectives of the project are as follows;
 - Evaluate various AI algorithms and select the most suitable for predicting credit defaults.
 - Implement and assess the chosen AI models in real-world scenarios.
 
-4. Adopted Artificial Intelligence Approach
+### 4. Adopted Artificial Intelligence Approach
+
 According to prior research, various data mining methods including neural networks, linear regression, Naïve Bayes, and random forest regression, are essential for assessing customer risk and default probability (Venkatesh and Jacob 2016) (Sayjadah et al. 2018). We explored several AI algorithms and made a selection based on each algorithm's capacity to handle the nuances and complexity of credit default prediction, supported by insights from academic literature and practical assessments. The following algorithms will be used in this process;
 - Logistic Regression Model: A generalized linear model called a logistic model is used to forecast the likelihood of a binary answer (Yu 2020).
 - Decision Tree Model: A decision tree is a structure that resembles a flowchart and is used to handle decision analysis problems (Yu 2020).
@@ -34,7 +38,8 @@ According to prior research, various data mining methods including neural networ
 - Random Forest Model: The random forest regression model employs a sequence of decision trees for prediction. According to a study by Venkatesh and Jacob (2016), the random forest approach has the highest degree of accuracy when it comes to credit card default prediction.
 - Gradient Boosting Model: It is an ensemble learning technique that creates a strong classifier by combining many weak decision trees (Patel et al. 2020). 
 
-5. Artificial Intelligence Approach Implementation
+### 5. Artificial Intelligence Approach Implementation
+
 In 1990, Jappelli identified credit history, income, and collateral as primary influencers of credit decisions, with lesser impact from job stability and demographic factors (Özdemir and Boran 2004). Crook extended this analysis to 1989 data, finding that higher education levels enhance borrowers' credit demand and eligibility. He also noted that default likelihood decreases with age but increases with larger family sizes (Özdemir and Boran 2004). 
 
 Comparative Insights:
@@ -49,10 +54,10 @@ The ‘cb_person_default_on_file_Y’ coefficient is 0.9923 and standard error i
 
 The ‘person_income’ coefficient is -1.962e-05, indicating a slight decrease in default probability with increasing income and ‘person_emp_length’ coefficient is -0.0270, suggesting that longer employment duration slightly reduces the default risk. 
 
-Conclusion and Future Work
+### Conclusion and Future Work
 The project successfully demonstrated the potential AI has in improving credit default predictions, with significant implications for risk management in finance. Future research could explore integrating more advanced machine learning techniques, larger datasets, and real-time prediction capabilities to further enhance accuracy and reliability.
 
-References
+### References
 Ala’raj, M. and Abbod, M. F., 2016. Classifiers consensus system approach for credit scoring. Knowledge-Based Systems, 104, 89–105.
 
 Carling, K., Jacobson, T. and Roszbach, K., 1998. Duration of Consumer Loans and Bank Lending Policy: Dormancy Versus Default Risk. Working Paper Series in Economics and Finance, 1–28.
